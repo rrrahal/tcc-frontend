@@ -1,10 +1,11 @@
 import React from 'react'
+import { Textarea } from './components/ui/textarea'
 import './App.css'
 
 function App() {
   return (
     <div className='App'>
-      <header className='App-header'>Hello</header>
+      <Textarea />
     </div>
   )
 }
