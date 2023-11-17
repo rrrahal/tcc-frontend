@@ -4,10 +4,12 @@ import { TitleComponent } from './title'
 import { SubmitButton } from './submit_button'
 import { venture1, venture2, venture3 } from '../../data/venture_descriptions'
 
-enum VentureResponse {
-    SUCCESS = 'SUCCESS',
+export enum VentureResponse {
+    GREEN = 'GREEN',
+    NOT_GREEN = 'NOT_GREEN',
     ERROR = 'ERROR',
     NOT_STARTED = 'NOT_STARTED',
+    LOADING = 'LOADING',
   }
 
 
@@ -27,7 +29,10 @@ export const Description = () => {
               setText={setVentureDescription}
               text={ventureDescription === '' ? undefined : ventureDescription}
             />
-            <SubmitButton content={ventureDescription} />
+            <SubmitButton content={ventureDescription} setVentureResponse={setVentureResponse} ventureResponse={ventureResponse}  />
+            {ventureResponse === VentureResponse.LOADING && <h2 className='text-blue-500'>Loading...</h2>}
+            {ventureResponse === VentureResponse.GREEN && (<h2 className='text-green-500'>This is a green venture!</h2>)}
+            {ventureResponse === VentureResponse.NOT_GREEN && (<h2 className='text-red-500'>This is not a green venture!</h2>)}
           </div>
 
           <div className='flex flex-col'>
