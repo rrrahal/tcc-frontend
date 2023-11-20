@@ -1,0 +1,1042 @@
+[
+    {
+        "country": "ABW",
+        "sustainable": 0,
+        "not_sustainable": 2
+    },
+    {
+        "country": "AFG",
+        "sustainable": 0,
+        "not_sustainable": 14
+    },
+    {
+        "country": "AGO",
+        "sustainable": 0,
+        "not_sustainable": 27
+    },
+    {
+        "country": "AIA",
+        "sustainable": 0,
+        "not_sustainable": 2
+    },
+    {
+        "country": "ALA",
+        "sustainable": 0,
+        "not_sustainable": 2
+    },
+    {
+        "country": "ALB",
+        "sustainable": 0,
+        "not_sustainable": 46
+    },
+    {
+        "country": "AND",
+        "sustainable": 1,
+        "not_sustainable": 8
+    },
+    {
+        "country": "ARE",
+        "sustainable": 26,
+        "not_sustainable": 2139
+    },
+    {
+        "country": "ARG",
+        "sustainable": 11,
+        "not_sustainable": 1225
+    },
+    {
+        "country": "ARM",
+        "sustainable": 0,
+        "not_sustainable": 104
+    },
+    {
+        "country": "ASM",
+        "sustainable": 0,
+        "not_sustainable": 4
+    },
+    {
+        "country": "ATG",
+        "sustainable": 0,
+        "not_sustainable": 4
+    },
+    {
+        "country": "AUS",
+        "sustainable": 282,
+        "not_sustainable": 12091
+    },
+    {
+        "country": "AUT",
+        "sustainable": 57,
+        "not_sustainable": 2150
+    },
+    {
+        "country": "AZE",
+        "sustainable": 3,
+        "not_sustainable": 84
+    },
+    {
+        "country": "BAH",
+        "sustainable": 0,
+        "not_sustainable": 34
+    },
+    {
+        "country": "BDI",
+        "sustainable": 0,
+        "not_sustainable": 3
+    },
+    {
+        "country": "BEL",
+        "sustainable": 72,
+        "not_sustainable": 2834
+    },
+    {
+        "country": "BEN",
+        "sustainable": 0,
+        "not_sustainable": 12
+    },
+    {
+        "country": "BFA",
+        "sustainable": 0,
+        "not_sustainable": 17
+    },
+    {
+        "country": "BGD",
+        "sustainable": 6,
+        "not_sustainable": 515
+    },
+    {
+        "country": "BGR",
+        "sustainable": 8,
+        "not_sustainable": 687
+    },
+    {
+        "country": "BHR",
+        "sustainable": 1,
+        "not_sustainable": 97
+    },
+    {
+        "country": "BIH",
+        "sustainable": 1,
+        "not_sustainable": 68
+    },
+    {
+        "country": "BLM",
+        "sustainable": 0,
+        "not_sustainable": 1
+    },
+    {
+        "country": "BLR",
+        "sustainable": 0,
+        "not_sustainable": 193
+    },
+    {
+        "country": "BLZ",
+        "sustainable": 0,
+        "not_sustainable": 45
+    },
+    {
+        "country": "BMU",
+        "sustainable": 1,
+        "not_sustainable": 142
+    },
+    {
+        "country": "BOL",
+        "sustainable": 1,
+        "not_sustainable": 30
+    },
+    {
+        "country": "BRA",
+        "sustainable": 232,
+        "not_sustainable": 10315
+    },
+    {
+        "country": "BRB",
+        "sustainable": 2,
+        "not_sustainable": 32
+    },
+    {
+        "country": "BRN",
+        "sustainable": 1,
+        "not_sustainable": 6
+    },
+    {
+        "country": "BTN",
+        "sustainable": 0,
+        "not_sustainable": 6
+    },
+    {
+        "country": "BWA",
+        "sustainable": 0,
+        "not_sustainable": 44
+    },
+    {
+        "country": "CAF",
+        "sustainable": 0,
+        "not_sustainable": 3
+    },
+    {
+        "country": "CAN",
+        "sustainable": 754,
+        "not_sustainable": 21689
+    },
+    {
+        "country": "CHE",
+        "sustainable": 198,
+        "not_sustainable": 6227
+    },
+    {
+        "country": "CHL",
+        "sustainable": 33,
+        "not_sustainable": 938
+    },
+    {
+        "country": "CHN",
+        "sustainable": 201,
+        "not_sustainable": 13252
+    },
+    {
+        "country": "CIV",
+        "sustainable": 3,
+        "not_sustainable": 68
+    },
+    {
+        "country": "CMR",
+        "sustainable": 4,
+        "not_sustainable": 64
+    },
+    {
+        "country": "COD",
+        "sustainable": 0,
+        "not_sustainable": 37
+    },
+    {
+        "country": "COG",
+        "sustainable": 0,
+        "not_sustainable": 7
+    },
+    {
+        "country": "COL",
+        "sustainable": 22,
+        "not_sustainable": 731
+    },
+    {
+        "country": "COM",
+        "sustainable": 0,
+        "not_sustainable": 3
+    },
+    {
+        "country": "CPV",
+        "sustainable": 0,
+        "not_sustainable": 2
+    },
+    {
+        "country": "CRI",
+        "sustainable": 7,
+        "not_sustainable": 186
+    },
+    {
+        "country": "CUB",
+        "sustainable": 0,
+        "not_sustainable": 16
+    },
+    {
+        "country": "CYM",
+        "sustainable": 2,
+        "not_sustainable": 132
+    },
+    {
+        "country": "CYP",
+        "sustainable": 10,
+        "not_sustainable": 429
+    },
+    {
+        "country": "CZE",
+        "sustainable": 15,
+        "not_sustainable": 1100
+    },
+    {
+        "country": "DEU",
+        "sustainable": 364,
+        "not_sustainable": 15485
+    },
+    {
+        "country": "DJI",
+        "sustainable": 0,
+        "not_sustainable": 1
+    },
+    {
+        "country": "DMA",
+        "sustainable": 0,
+        "not_sustainable": 8
+    },
+    {
+        "country": "DNK",
+        "sustainable": 127,
+        "not_sustainable": 3159
+    },
+    {
+        "country": "DOM",
+        "sustainable": 2,
+        "not_sustainable": 61
+    },
+    {
+        "country": "DZA",
+        "sustainable": 0,
+        "not_sustainable": 47
+    },
+    {
+        "country": "ECU",
+        "sustainable": 1,
+        "not_sustainable": 136
+    },
+    {
+        "country": "EGY",
+        "sustainable": 13,
+        "not_sustainable": 724
+    },
+    {
+        "country": "ESP",
+        "sustainable": 259,
+        "not_sustainable": 9932
+    },
+    {
+        "country": "EST",
+        "sustainable": 24,
+        "not_sustainable": 902
+    },
+    {
+        "country": "ETH",
+        "sustainable": 2,
+        "not_sustainable": 46
+    },
+    {
+        "country": "FIN",
+        "sustainable": 119,
+        "not_sustainable": 3464
+    },
+    {
+        "country": "FJI",
+        "sustainable": 1,
+        "not_sustainable": 5
+    },
+    {
+        "country": "FLK",
+        "sustainable": 0,
+        "not_sustainable": 1
+    },
+    {
+        "country": "FRA",
+        "sustainable": 382,
+        "not_sustainable": 13826
+    },
+    {
+        "country": "FRO",
+        "sustainable": 0,
+        "not_sustainable": 1
+    },
+    {
+        "country": "GAB",
+        "sustainable": 0,
+        "not_sustainable": 7
+    },
+    {
+        "country": "GBR",
+        "sustainable": 1017,
+        "not_sustainable": 48279
+    },
+    {
+        "country": "GEO",
+        "sustainable": 0,
+        "not_sustainable": 77
+    },
+    {
+        "country": "GGY",
+        "sustainable": 1,
+        "not_sustainable": 67
+    },
+    {
+        "country": "GHA",
+        "sustainable": 5,
+        "not_sustainable": 299
+    },
+    {
+        "country": "GIB",
+        "sustainable": 0,
+        "not_sustainable": 99
+    },
+    {
+        "country": "GIN",
+        "sustainable": 1,
+        "not_sustainable": 2
+    },
+    {
+        "country": "GLP",
+        "sustainable": 0,
+        "not_sustainable": 2
+    },
+    {
+        "country": "GMB",
+        "sustainable": 1,
+        "not_sustainable": 5
+    },
+    {
+        "country": "GRC",
+        "sustainable": 18,
+        "not_sustainable": 717
+    },
+    {
+        "country": "GRD",
+        "sustainable": 0,
+        "not_sustainable": 7
+    },
+    {
+        "country": "GRL",
+        "sustainable": 0,
+        "not_sustainable": 2
+    },
+    {
+        "country": "GTM",
+        "sustainable": 5,
+        "not_sustainable": 58
+    },
+    {
+        "country": "GUF",
+        "sustainable": 0,
+        "not_sustainable": 1
+    },
+    {
+        "country": "GUM",
+        "sustainable": 0,
+        "not_sustainable": 5
+    },
+    {
+        "country": "GUY",
+        "sustainable": 0,
+        "not_sustainable": 4
+    },
+    {
+        "country": "HKG",
+        "sustainable": 41,
+        "not_sustainable": 3522
+    },
+    {
+        "country": "HND",
+        "sustainable": 0,
+        "not_sustainable": 23
+    },
+    {
+        "country": "HRV",
+        "sustainable": 5,
+        "not_sustainable": 341
+    },
+    {
+        "country": "HTI",
+        "sustainable": 0,
+        "not_sustainable": 10
+    },
+    {
+        "country": "HUN",
+        "sustainable": 12,
+        "not_sustainable": 860
+    },
+    {
+        "country": "IDN",
+        "sustainable": 10,
+        "not_sustainable": 1630
+    },
+    {
+        "country": "IMN",
+        "sustainable": 0,
+        "not_sustainable": 80
+    },
+    {
+        "country": "IND",
+        "sustainable": 405,
+        "not_sustainable": 27963
+    },
+    {
+        "country": "IRL",
+        "sustainable": 118,
+        "not_sustainable": 4769
+    },
+    {
+        "country": "IRN",
+        "sustainable": 2,
+        "not_sustainable": 269
+    },
+    {
+        "country": "IRQ",
+        "sustainable": 0,
+        "not_sustainable": 32
+    },
+    {
+        "country": "ISL",
+        "sustainable": 22,
+        "not_sustainable": 437
+    },
+    {
+        "country": "ISR",
+        "sustainable": 186,
+        "not_sustainable": 5852
+    },
+    {
+        "country": "ITA",
+        "sustainable": 176,
+        "not_sustainable": 5201
+    },
+    {
+        "country": "JAM",
+        "sustainable": 3,
+        "not_sustainable": 59
+    },
+    {
+        "country": "JEY",
+        "sustainable": 2,
+        "not_sustainable": 76
+    },
+    {
+        "country": "JOR",
+        "sustainable": 1,
+        "not_sustainable": 251
+    },
+    {
+        "country": "JPN",
+        "sustainable": 35,
+        "not_sustainable": 3261
+    },
+    {
+        "country": "KAZ",
+        "sustainable": 1,
+        "not_sustainable": 76
+    },
+    {
+        "country": "KEN",
+        "sustainable": 40,
+        "not_sustainable": 762
+    },
+    {
+        "country": "KGZ",
+        "sustainable": 0,
+        "not_sustainable": 14
+    },
+    {
+        "country": "KHM",
+        "sustainable": 7,
+        "not_sustainable": 86
+    },
+    {
+        "country": "KNA",
+        "sustainable": 0,
+        "not_sustainable": 7
+    },
+    {
+        "country": "KOR",
+        "sustainable": 23,
+        "not_sustainable": 2891
+    },
+    {
+        "country": "KWT",
+        "sustainable": 0,
+        "not_sustainable": 142
+    },
+    {
+        "country": "LAO",
+        "sustainable": 2,
+        "not_sustainable": 5
+    },
+    {
+        "country": "LBN",
+        "sustainable": 1,
+        "not_sustainable": 273
+    },
+    {
+        "country": "LBR",
+        "sustainable": 0,
+        "not_sustainable": 9
+    },
+    {
+        "country": "LBY",
+        "sustainable": 0,
+        "not_sustainable": 6
+    },
+    {
+        "country": "LCA",
+        "sustainable": 1,
+        "not_sustainable": 2
+    },
+    {
+        "country": "LIE",
+        "sustainable": 0,
+        "not_sustainable": 50
+    },
+    {
+        "country": "LKA",
+        "sustainable": 2,
+        "not_sustainable": 232
+    },
+    {
+        "country": "LSO",
+        "sustainable": 1,
+        "not_sustainable": 11
+    },
+    {
+        "country": "LTU",
+        "sustainable": 15,
+        "not_sustainable": 614
+    },
+    {
+        "country": "LUX",
+        "sustainable": 9,
+        "not_sustainable": 555
+    },
+    {
+        "country": "LVA",
+        "sustainable": 13,
+        "not_sustainable": 474
+    },
+    {
+        "country": "MAC",
+        "sustainable": 0,
+        "not_sustainable": 10
+    },
+    {
+        "country": "MAF",
+        "sustainable": 0,
+        "not_sustainable": 2
+    },
+    {
+        "country": "MAR",
+        "sustainable": 11,
+        "not_sustainable": 245
+    },
+    {
+        "country": "MDA",
+        "sustainable": 3,
+        "not_sustainable": 62
+    },
+    {
+        "country": "MDG",
+        "sustainable": 1,
+        "not_sustainable": 20
+    },
+    {
+        "country": "MDV",
+        "sustainable": 1,
+        "not_sustainable": 13
+    },
+    {
+        "country": "MEX",
+        "sustainable": 45,
+        "not_sustainable": 1807
+    },
+    {
+        "country": "MHL",
+        "sustainable": 0,
+        "not_sustainable": 8
+    },
+    {
+        "country": "MKD",
+        "sustainable": 0,
+        "not_sustainable": 69
+    },
+    {
+        "country": "MLI",
+        "sustainable": 1,
+        "not_sustainable": 15
+    },
+    {
+        "country": "MLT",
+        "sustainable": 1,
+        "not_sustainable": 236
+    },
+    {
+        "country": "MMR",
+        "sustainable": 3,
+        "not_sustainable": 141
+    },
+    {
+        "country": "MNE",
+        "sustainable": 0,
+        "not_sustainable": 8
+    },
+    {
+        "country": "MNG",
+        "sustainable": 0,
+        "not_sustainable": 32
+    },
+    {
+        "country": "MNP",
+        "sustainable": 0,
+        "not_sustainable": 1
+    },
+    {
+        "country": "MOZ",
+        "sustainable": 3,
+        "not_sustainable": 27
+    },
+    {
+        "country": "MRT",
+        "sustainable": 0,
+        "not_sustainable": 5
+    },
+    {
+        "country": "MSR",
+        "sustainable": 0,
+        "not_sustainable": 1
+    },
+    {
+        "country": "MTQ",
+        "sustainable": 0,
+        "not_sustainable": 7
+    },
+    {
+        "country": "MUS",
+        "sustainable": 3,
+        "not_sustainable": 135
+    },
+    {
+        "country": "MWI",
+        "sustainable": 1,
+        "not_sustainable": 22
+    },
+    {
+        "country": "MYS",
+        "sustainable": 15,
+        "not_sustainable": 1498
+    },
+    {
+        "country": "NAM",
+        "sustainable": 1,
+        "not_sustainable": 33
+    },
+    {
+        "country": "NCL",
+        "sustainable": 0,
+        "not_sustainable": 2
+    },
+    {
+        "country": "NER",
+        "sustainable": 0,
+        "not_sustainable": 7
+    },
+    {
+        "country": "NFK",
+        "sustainable": 0,
+        "not_sustainable": 2
+    },
+    {
+        "country": "NGA",
+        "sustainable": 30,
+        "not_sustainable": 1453
+    },
+    {
+        "country": "NIC",
+        "sustainable": 2,
+        "not_sustainable": 20
+    },
+    {
+        "country": "NLD",
+        "sustainable": 257,
+        "not_sustainable": 7207
+    },
+    {
+        "country": "NOR",
+        "sustainable": 92,
+        "not_sustainable": 2200
+    },
+    {
+        "country": "NPL",
+        "sustainable": 7,
+        "not_sustainable": 180
+    },
+    {
+        "country": "NZL",
+        "sustainable": 24,
+        "not_sustainable": 1583
+    },
+    {
+        "country": "OMN",
+        "sustainable": 0,
+        "not_sustainable": 40
+    },
+    {
+        "country": "PAK",
+        "sustainable": 7,
+        "not_sustainable": 1100
+    },
+    {
+        "country": "PAN",
+        "sustainable": 1,
+        "not_sustainable": 123
+    },
+    {
+        "country": "PER",
+        "sustainable": 4,
+        "not_sustainable": 313
+    },
+    {
+        "country": "PHL",
+        "sustainable": 19,
+        "not_sustainable": 1072
+    },
+    {
+        "country": "PNG",
+        "sustainable": 0,
+        "not_sustainable": 6
+    },
+    {
+        "country": "POL",
+        "sustainable": 40,
+        "not_sustainable": 2693
+    },
+    {
+        "country": "PRI",
+        "sustainable": 1,
+        "not_sustainable": 143
+    },
+    {
+        "country": "PRK",
+        "sustainable": 0,
+        "not_sustainable": 1
+    },
+    {
+        "country": "PRT",
+        "sustainable": 48,
+        "not_sustainable": 1656
+    },
+    {
+        "country": "PRY",
+        "sustainable": 1,
+        "not_sustainable": 26
+    },
+    {
+        "country": "PSE",
+        "sustainable": 0,
+        "not_sustainable": 34
+    },
+    {
+        "country": "PYF",
+        "sustainable": 0,
+        "not_sustainable": 2
+    },
+    {
+        "country": "QAT",
+        "sustainable": 2,
+        "not_sustainable": 100
+    },
+    {
+        "country": "REU",
+        "sustainable": 0,
+        "not_sustainable": 2
+    },
+    {
+        "country": "ROM",
+        "sustainable": 13,
+        "not_sustainable": 1216
+    },
+    {
+        "country": "RUS",
+        "sustainable": 39,
+        "not_sustainable": 3225
+    },
+    {
+        "country": "RWA",
+        "sustainable": 7,
+        "not_sustainable": 61
+    },
+    {
+        "country": "SAU",
+        "sustainable": 10,
+        "not_sustainable": 398
+    },
+    {
+        "country": "SDN",
+        "sustainable": 0,
+        "not_sustainable": 9
+    },
+    {
+        "country": "SEN",
+        "sustainable": 3,
+        "not_sustainable": 61
+    },
+    {
+        "country": "SGP",
+        "sustainable": 64,
+        "not_sustainable": 4598
+    },
+    {
+        "country": "SLB",
+        "sustainable": 0,
+        "not_sustainable": 1
+    },
+    {
+        "country": "SLE",
+        "sustainable": 0,
+        "not_sustainable": 19
+    },
+    {
+        "country": "SLV",
+        "sustainable": 0,
+        "not_sustainable": 47
+    },
+    {
+        "country": "SMR",
+        "sustainable": 0,
+        "not_sustainable": 1
+    },
+    {
+        "country": "SOM",
+        "sustainable": 0,
+        "not_sustainable": 7
+    },
+    {
+        "country": "SRB",
+        "sustainable": 3,
+        "not_sustainable": 174
+    },
+    {
+        "country": "SUR",
+        "sustainable": 1,
+        "not_sustainable": 5
+    },
+    {
+        "country": "SVK",
+        "sustainable": 11,
+        "not_sustainable": 351
+    },
+    {
+        "country": "SVN",
+        "sustainable": 14,
+        "not_sustainable": 349
+    },
+    {
+        "country": "SWE",
+        "sustainable": 172,
+        "not_sustainable": 5338
+    },
+    {
+        "country": "SWZ",
+        "sustainable": 0,
+        "not_sustainable": 4
+    },
+    {
+        "country": "SYC",
+        "sustainable": 0,
+        "not_sustainable": 25
+    },
+    {
+        "country": "SYR",
+        "sustainable": 0,
+        "not_sustainable": 9
+    },
+    {
+        "country": "TAN",
+        "sustainable": 10,
+        "not_sustainable": 104
+    },
+    {
+        "country": "TCA",
+        "sustainable": 0,
+        "not_sustainable": 3
+    },
+    {
+        "country": "TCD",
+        "sustainable": 1,
+        "not_sustainable": 0
+    },
+    {
+        "country": "TGO",
+        "sustainable": 0,
+        "not_sustainable": 15
+    },
+    {
+        "country": "THA",
+        "sustainable": 8,
+        "not_sustainable": 792
+    },
+    {
+        "country": "TJK",
+        "sustainable": 0,
+        "not_sustainable": 6
+    },
+    {
+        "country": "TKM",
+        "sustainable": 0,
+        "not_sustainable": 1
+    },
+    {
+        "country": "TTO",
+        "sustainable": 6,
+        "not_sustainable": 118
+    },
+    {
+        "country": "TUN",
+        "sustainable": 3,
+        "not_sustainable": 151
+    },
+    {
+        "country": "TUR",
+        "sustainable": 38,
+        "not_sustainable": 3061
+    },
+    {
+        "country": "TWN",
+        "sustainable": 16,
+        "not_sustainable": 1065
+    },
+    {
+        "country": "UGA",
+        "sustainable": 10,
+        "not_sustainable": 193
+    },
+    {
+        "country": "UKR",
+        "sustainable": 5,
+        "not_sustainable": 1030
+    },
+    {
+        "country": "URY",
+        "sustainable": 0,
+        "not_sustainable": 168
+    },
+    {
+        "country": "USA",
+        "sustainable": 5489,
+        "not_sustainable": 266713
+    },
+    {
+        "country": "UZB",
+        "sustainable": 0,
+        "not_sustainable": 11
+    },
+    {
+        "country": "VEN",
+        "sustainable": 0,
+        "not_sustainable": 80
+    },
+    {
+        "country": "VNM",
+        "sustainable": 13,
+        "not_sustainable": 1766
+    },
+    {
+        "country": "YEM",
+        "sustainable": 0,
+        "not_sustainable": 6
+    },
+    {
+        "country": "ZAF",
+        "sustainable": 76,
+        "not_sustainable": 2654
+    },
+    {
+        "country": "ZMB",
+        "sustainable": 4,
+        "not_sustainable": 83
+    },
+    {
+        "country": "ZWE",
+        "sustainable": 5,
+        "not_sustainable": 102
+    }
+]

@@ -1,6 +1,10 @@
+import React, { useState } from 'react';
 import * as d3 from 'd3';
 
-export const Map = ({ width, height, data }) => {
+export const Map = ({ width, height, data, countries }) => {
+  const [interactionData, setInteractiondata] = useState(null);
+
+
   const projection = d3
     .geoMercator()
     .scale(width / 2 / Math.PI - 40)
@@ -8,17 +12,29 @@ export const Map = ({ width, height, data }) => {
 
   const geoPathGenerator = d3.geoPath().projection(projection);
 
+  const colorScale = d3
+    .scaleThreshold()
+    .domain([0, 10, 50, 100, 500, 1000, 5000])
+    .range(d3.schemeBlues[7]);
+
   const allSvgPaths = data.features
     .filter((shape) => shape.id !== 'ATA')
     .map((shape) => {
+      const regionData = countries.find((region) => region.country === shape.id);
+
+      const color = regionData ? colorScale(regionData?.sustainable) : 'lightgrey';
+
       return (
         <path
           key={shape.id}
           d={geoPathGenerator(shape)}
           stroke="lightGrey"
           strokeWidth={0.5}
-          fill="grey"
-          fillOpacity={0.7}
+          fill={color}
+          fillOpacity={1}
+          onMouseEnter={() => // Each time the circle is hovered hover...
+          setInteractiondata(true)}
+          onMouseLeave={() => setInteractiondata(null)}
         />
       );
     });
