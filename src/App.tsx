@@ -6,6 +6,8 @@ import { data } from './data/map_data'
 import { words_data } from './data/words'
 import CountriesData from './data/countries.json'
 import { Lollipop } from './components/vis/lollipop'
+import { Barplot } from './components/vis/barchar'
+import { bar_data } from './data/bar_chart'
 
 export enum SelectedView {
   VentureModel,
@@ -18,7 +20,8 @@ function App() {
   const viz = (
     <div className='flex flex-col items-center justify-center w-full h-full'>
       <Map width={700} height={400} data={data} countries={CountriesData} />
-      <Lollipop width={700} height={400} data={words_data} />
+      <Lollipop width={700} height={800} data={words_data} />
+      <Barplot width={700} height={1000} data={bar_data} />
     </div>
   )
 
