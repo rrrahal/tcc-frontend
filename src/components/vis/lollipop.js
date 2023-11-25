@@ -1,9 +1,11 @@
-import { useMemo } from "react";
+import { useMemo, useRef } from "react";
 import * as d3 from "d3";
+import "./tooltip.css";
 
 const MARGIN = { top: 30, right: 30, bottom: 30, left: 80 };
 
 export const Lollipop = ({ width, height, data }) => {
+  const tooltipRef = useRef();
   // bounds = area inside the graph axis = calculated by substracting the margins
   const boundsWidth = width - MARGIN.right - MARGIN.left;
   const boundsHeight = height - MARGIN.top - MARGIN.bottom;
@@ -24,6 +26,27 @@ export const Lollipop = ({ width, height, data }) => {
       .range([0, boundsWidth]);
   }, [data, width]);
 
+  const mouseover = (event,d) => {
+    console.log(d);
+    const tooltipDiv = tooltipRef.current;
+    console.log(tooltipDiv);
+    if (tooltipDiv) {
+      d3.select(tooltipDiv).transition().duration(200).style("opacity", 0.9);
+      d3.select(tooltipDiv)
+        .html(d.value)
+        // TODO: some logic when the tooltip could go out from container
+        .style("left", event.pageX + "px")
+        .style("top", event.pageY - 28 + "px");
+    }
+  };
+
+  const mouseout = () => {
+    const tooltipDiv = tooltipRef.current;
+    if (tooltipDiv) {
+      d3.select(tooltipDiv).transition().duration(500).style("opacity", 0);
+    }
+  };
+
   // Build the shapes
   const allShapes = data.map((d, i) => {
     const y = yScale(d.name) + yScale.bandwidth() / 2;
@@ -37,7 +60,9 @@ export const Lollipop = ({ width, height, data }) => {
           x2={xScale(d.value)}
           opacity={0.7}
           stroke="#9d174d"
-          strokeWidth={1}
+          strokeWidth={3}
+          onMouseOver={e => mouseover(e, d)}
+          onMouseOut={mouseout}
         />
         <circle
           cy={y}
@@ -45,8 +70,10 @@ export const Lollipop = ({ width, height, data }) => {
           opacity={0.7}
           stroke="#9d174d"
           fill="#9d174d"
-          strokeWidth={1}
-          r={3}
+          strokeWidth={2}
+          r={5}
+          onMouseOver={e => mouseover(e, d)}
+          onMouseOut={mouseout}
         />
         <text
           x={xScale(0) - 7}
@@ -100,6 +127,7 @@ export const Lollipop = ({ width, height, data }) => {
           {allShapes}
         </g>
       </svg>
+      <div className="tooltip" ref={tooltipRef} />
     </div>
   );
 };

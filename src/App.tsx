@@ -19,7 +19,7 @@ function App() {
 
   const viz = (
     <div className='flex flex-col items-center justify-center w-full h-full'>
-      <Map width={700} height={400} data={data} countries={CountriesData} />
+      <Map width={900} height={500} data={data} countries={CountriesData} />
       <Lollipop width={700} height={800} data={words_data} />
       <Barplot width={700} height={1000} data={bar_data} />
     </div>

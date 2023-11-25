@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import * as d3 from 'd3';
+import { ColorLegend } from './color_legend';
 
 export const Map = ({ width, height, data, countries }) => {
   const [interactionData, setInteractiondata] = useState(null);
@@ -14,7 +15,7 @@ export const Map = ({ width, height, data, countries }) => {
 
   const colorScale = d3
     .scaleThreshold()
-    .domain([0, 10, 50, 100, 500, 1000, 5000])
+    .domain([0, 50, 100, 250, 500, 750, 1000])
     .range(d3.schemeBlues[7]);
 
   const allSvgPaths = data.features
@@ -44,6 +45,12 @@ export const Map = ({ width, height, data, countries }) => {
       <svg width={width} height={height}>
         {allSvgPaths}
       </svg>
+      <div class="flex justify-center">
+        <ColorLegend
+          height={100}
+          colorScale={colorScale}
+          width={width / 3} />
+      </div>
     </div>
   );
 };
