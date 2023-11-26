@@ -21,13 +21,14 @@ export const Description = () => {
 
     return (
         <>
-        <div className='TextAreaContainer flex'>
-        <div className='flex flex-col'>
-          <TitleComponent />
+        <TitleComponent />
+        <div className='TextAreaContainer flex justify-center' >
+        <div className='flex flex-col max-w-[600px]'>
           <Textarea
               className='w-1/2  min-w-[400px]'
               setText={setVentureDescription}
               text={ventureDescription === '' ? undefined : ventureDescription}
+              rows={10}
             />
             <SubmitButton content={ventureDescription} setVentureResponse={setVentureResponse} ventureResponse={ventureResponse}  />
             {ventureResponse === VentureResponse.LOADING && <h2 className='text-blue-500'>Loading...</h2>}
@@ -35,7 +36,7 @@ export const Description = () => {
             {ventureResponse === VentureResponse.NOT_GREEN && (<h2 className='text-red-500'>This is not a green venture!</h2>)}
           </div>
 
-          <div className='flex flex-col'>
+          <div className='flex flex-col items-center px-6 justify-center max-h-[220px] justify-evenly'>
             <button className="bg-teal-500 text-white active:bg-teal-600 font-bold uppercase text-xs px-4 py-2 rounded-full shadow hover:shadow-md outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150 max-w-[120px] " type="button"
                 onClick={() => setVentureDescription(venture1)}
             >
@@ -51,9 +52,9 @@ export const Description = () => {
             >
                 Example 3
             </button>
-            <button className="bg-teal-500 text-white active:bg-teal-600 font-bold uppercase text-xs px-4 py-2 rounded-full shadow hover:shadow-md outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150 max-w-[200px]" type="button"
+            <button className="bg-teal-500 text-white active:bg-teal-600 font-bold uppercase text-xs px-4 py-2 rounded-full shadow hover:shadow-md outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150 max-w-[200px] min-w-[100px]" type="button"
             >
-                Other Random Example
+              Random
             </button>
           </div>
         </div>

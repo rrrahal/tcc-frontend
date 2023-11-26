@@ -1,6 +1,7 @@
 import React, { useState, useRef } from 'react';
 import * as d3 from 'd3';
 import { ColorLegend } from './color_legend';
+import './ui/title.css';
 
 export const Map = ({ width, height, data, countries }) => {
   const tooltipRef = useRef();
@@ -9,8 +10,8 @@ export const Map = ({ width, height, data, countries }) => {
 
   const projection = d3
     .geoMercator()
-    .scale(width / 2 / Math.PI - 40)
-    .center([10, 35]);
+    .scale(width / 2 / Math.PI)
+    .center([2.34, 48.86]);
 
   const geoPathGenerator = d3.geoPath().projection(projection);
 
@@ -61,7 +62,8 @@ export const Map = ({ width, height, data, countries }) => {
     });
 
   return (
-    <div>
+    <div className='flex flex-col items-center'>
+    <div className="text-3xl font-bold py-3 mb-3 title text-teal-800 w-[700px]">Choropleth Map</div>
       <svg width={width} height={height}>
         {allSvgPaths}
       </svg>

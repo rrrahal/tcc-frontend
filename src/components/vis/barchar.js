@@ -130,6 +130,7 @@ export const Barplot = ({ width, height, data }) => {
 
   return (
     <div>
+      <div className="text-3xl font-bold py-3 my-3 title text-teal-800">Stacked Bars</div>
       <svg width={width} height={height}>
         <g
           width={boundsWidth}

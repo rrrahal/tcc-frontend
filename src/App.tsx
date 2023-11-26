@@ -27,8 +27,8 @@ function App() {
 
 
   return (
-    <div className='app min-w-[100vw] min-h-[100vh]'>
-      <Header setSelectedView={setSelectedView} />
+    <div className='app min-w-[100vw] min-h-[100vh] bg-amber-50'>
+      <Header setSelectedView={setSelectedView} selectedView={selectedView} />
       {selectedView === SelectedView.VentureModel ? <Description /> : viz}
     </div>
   )

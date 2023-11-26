@@ -37,7 +37,7 @@ export const SubmitButton = ({ content, setVentureResponse, ventureResponse }: S
 
   return (
     <button
-      className='mt-4 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded max-w-[200px]'
+      className='mt-4 bg-teal-500 hover:bg-teal-700 text-white font-bold py-2 px-4 rounded max-w-[200px]'
       onClick={handleClick}
       disabled={ventureResponse === VentureResponse.LOADING || content === undefined}
     >

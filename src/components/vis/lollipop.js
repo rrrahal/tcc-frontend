@@ -117,6 +117,7 @@ export const Lollipop = ({ width, height, data }) => {
 
   return (
     <div>
+      <div className="text-3xl font-bold my-3 title text-teal-800">Lollipop Graph</div>
       <svg width={width} height={height}>
         <g
           width={boundsWidth}
