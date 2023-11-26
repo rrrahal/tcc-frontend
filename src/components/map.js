@@ -1,9 +1,10 @@
-import React, { useState } from 'react';
+import React, { useState, useRef } from 'react';
 import * as d3 from 'd3';
 import { ColorLegend } from './color_legend';
 
 export const Map = ({ width, height, data, countries }) => {
-  const [interactionData, setInteractiondata] = useState(null);
+  const tooltipRef = useRef();
+  const tooltip_comp = useRef();
 
 
   const projection = d3
@@ -17,6 +18,26 @@ export const Map = ({ width, height, data, countries }) => {
     .scaleThreshold()
     .domain([0, 50, 100, 250, 500, 750, 1000])
     .range(d3.schemeBlues[7]);
+
+  const mouseover = (event,d) => {
+    console.log(d);
+    const tooltipDiv = tooltipRef.current;
+    console.log(tooltipDiv);
+    if (tooltipDiv) {
+      d3.select(tooltipDiv).transition().duration(200).style("opacity", 0.9);
+      d3.select(tooltipDiv)
+        .html(d ? d.country + "<br/>" + d.sustainable + "<br/>" + d.not_sustainable : "No data")
+        .style("left", event.pageX + "px")
+        .style("top", event.pageY - 28 + "px");
+    }
+  };
+
+  const mouseout = () => {
+    const tooltipDiv = tooltipRef.current;
+    if (tooltipDiv) {
+      d3.select(tooltipDiv).transition().duration(500).style("opacity", 0);
+    }
+  };
 
   const allSvgPaths = data.features
     .filter((shape) => shape.id !== 'ATA')
@@ -33,9 +54,8 @@ export const Map = ({ width, height, data, countries }) => {
           strokeWidth={0.5}
           fill={color}
           fillOpacity={1}
-          onMouseEnter={() => // Each time the circle is hovered hover...
-          setInteractiondata(true)}
-          onMouseLeave={() => setInteractiondata(null)}
+          onMouseEnter={(e) => mouseover(e, regionData)}
+          onMouseLeave={() => mouseout()}
         />
       );
     });
@@ -51,6 +71,7 @@ export const Map = ({ width, height, data, countries }) => {
           colorScale={colorScale}
           width={width / 3} />
       </div>
+      <div className="tooltip" ref={tooltipRef} />
     </div>
   );
 };
