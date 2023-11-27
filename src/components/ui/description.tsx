@@ -2,7 +2,8 @@ import React from 'react'
 import { Textarea } from './textarea'
 import { TitleComponent } from './title'
 import { SubmitButton } from './submit_button'
-import { venture1, venture2, venture3 } from '../../data/venture_descriptions'
+import { venture1, venture2, venture3, random_example } from '../../data/venture_descriptions'
+import { Response } from './response'
 
 export enum VentureResponse {
     GREEN = 'GREEN',
@@ -31,9 +32,9 @@ export const Description = () => {
               rows={10}
             />
             <SubmitButton content={ventureDescription} setVentureResponse={setVentureResponse} ventureResponse={ventureResponse}  />
-            {ventureResponse === VentureResponse.LOADING && <h2 className='text-blue-500'>Loading...</h2>}
-            {ventureResponse === VentureResponse.GREEN && (<h2 className='text-green-500'>This is a green venture!</h2>)}
-            {ventureResponse === VentureResponse.NOT_GREEN && (<h2 className='text-red-500'>This is not a green venture!</h2>)}
+            {ventureResponse === VentureResponse.LOADING && <Response positive={false} loading={true} />}
+            {ventureResponse === VentureResponse.GREEN && <Response positive={true} loading={false} />}
+            {ventureResponse === VentureResponse.NOT_GREEN && <Response positive={false} loading={false} />}
           </div>
 
           <div className='flex flex-col items-center px-6 justify-center max-h-[220px] justify-evenly'>
@@ -53,6 +54,7 @@ export const Description = () => {
                 Example 3
             </button>
             <button className="bg-teal-500 text-white active:bg-teal-600 font-bold uppercase text-xs px-4 py-2 rounded-full shadow hover:shadow-md outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150 max-w-[200px] min-w-[100px]" type="button"
+                    onClick={() => setVentureDescription(random_example())}
             >
               Random
             </button>
