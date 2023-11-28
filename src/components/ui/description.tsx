@@ -4,6 +4,7 @@ import { TitleComponent } from './title'
 import { SubmitButton } from './submit_button'
 import { venture1, venture2, venture3, random_example } from '../../data/venture_descriptions'
 import { Response } from './response'
+import ProjectPresentation from './project_presentation'
 
 export enum VentureResponse {
     GREEN = 'GREEN',
@@ -22,6 +23,7 @@ export const Description = () => {
 
     return (
         <>
+        <ProjectPresentation />
         <TitleComponent />
         <div className='TextAreaContainer flex justify-center' >
         <div className='flex flex-col max-w-[600px]'>
