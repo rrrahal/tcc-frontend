@@ -59,7 +59,7 @@ export const Lollipop = ({ width, height, data }) => {
           y2={y}
           x2={xScale(d.value)}
           opacity={0.7}
-          stroke="#9d174d"
+          stroke="#14B8A6"
           strokeWidth={3}
           onMouseOver={e => mouseover(e, d)}
           onMouseOut={mouseout}
@@ -68,8 +68,8 @@ export const Lollipop = ({ width, height, data }) => {
           cy={y}
           cx={xScale(d.value)}
           opacity={0.7}
-          stroke="#9d174d"
-          fill="#9d174d"
+          stroke="#14B8A6"
+          fill="#14B8A6"
           strokeWidth={2}
           r={5}
           onMouseOver={e => mouseover(e, d)}
@@ -118,6 +118,12 @@ export const Lollipop = ({ width, height, data }) => {
   return (
     <div>
       <div className="text-3xl font-bold my-3 title text-teal-800">Lollipop Graph</div>
+      <div className="my-2 max-w-[700px]">
+        <p className="text-gray-700">
+          Explore the lollipop chart below to visualize the frequency of words in venture descriptions, excluding common stopwords. Each lollipop represents a word, and the length indicates its frequency.
+          This analysis provides insights into the key terms used in green ventures, helping users understand the prevalent themes and focus areas in sustainable business descriptions.
+        </p>
+      </div>
       <svg width={width} height={height}>
         <g
           width={boundsWidth}
