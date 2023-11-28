@@ -17,8 +17,8 @@ export const Map = ({ width, height, data, countries }) => {
 
   const colorScale = d3
     .scaleThreshold()
-    .domain([0, 50, 100, 250, 500, 750, 1000])
-    .range(d3.schemeBlues[7]);
+    .domain([1, 50, 100, 250, 500, 750, 1000])
+    .range(d3.schemeGreens[7]);
 
   const mouseover = (event,d) => {
     console.log(d);
